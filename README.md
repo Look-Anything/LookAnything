@@ -2,8 +2,6 @@
 
 <img src="assets/logo.png" alt="LookAnything logo" width="260">
 
-<h1>LookAnything</h1>
-
 <h3>A Foundation Model for Holistic Gaze Following</h3>
 
 <p><strong>Jiayu Tang</strong><sup>1,2,*</sup> · <strong>Yuchen Zhou</strong><sup>2,*,†</sup> · Hongsheng Wu<sup>3</sup> · Hanjing Ye<sup>2</sup> · Ke Huang<sup>4</sup><br>
