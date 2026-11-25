@@ -63,9 +63,8 @@ HoliGaze-Bench combines open-ended questions and multiple-choice questions. Its 
 
 We are actively preparing the public release. Resources will be added here as they become available.
 
-- [ ] Release **cleaned code** for inference, training, and evaluation, with setup instructions.
-- [ ] Release **LookAnything model weights** and a minimal inference example.
-- [ ] Release **HoliGaze-Bench** on Hugging Face, with annotations, evaluation protocol, and scoring scripts.
+- [ ] Release **cleaned code** for training and inference, with setup instructions.
+- [ ] Release **HoliGaze-Bench**.
 
 We will update this README with download links and reproducibility instructions as each resource becomes available.
 
