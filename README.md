@@ -13,11 +13,17 @@ Cheng Wang<sup>1</sup> · Yuqin Dai<sup>5</sup> · Yufei Huang<sup>2</sup> · Yo
 <sup>4</sup>Hong Kong Polytechnic University · <sup>5</sup>Tsinghua University<br>
 <sup>*</sup>Equal contribution · <sup>†</sup>Corresponding authors</p>
 
-<p><a href="https://look-anything.github.io/"><strong>Project Page</strong></a> · <a href="https://arxiv.org/abs/2611.32351"><strong>Paper</strong></a> · <a href="https://look-anything.github.io/#demo"><strong>Demo</strong></a> · <a href="https://github.com/Look-Anything/LookAnything"><strong>GitHub</strong></a> · <strong>Dataset (Hugging Face): coming soon</strong></p>
+<p>
+  <a href="https://look-anything.github.io/"><img src="https://img.shields.io/badge/Project-Page-8A2BE2?style=flat&amp;labelColor=555" alt="Project Page" height="28"></a>
+  <a href="https://arxiv.org/abs/2611.32351"><img src="https://img.shields.io/badge/arXiv-2611.32351-B31B1B?style=flat&amp;labelColor=555" alt="arXiv paper 2611.32351" height="28"></a>
+  <a href="https://look-anything.github.io/#demo"><img src="https://img.shields.io/badge/Watch-Demo-EA7B39?style=flat&amp;labelColor=555" alt="Watch Demo" height="28"></a>
+  <a href="https://github.com/Look-Anything/LookAnything"><img src="https://img.shields.io/badge/GitHub-Code-0969DA?style=flat&amp;labelColor=555" alt="GitHub Code" height="28"></a>
+  <img src="https://img.shields.io/badge/Hugging%20Face-Dataset%20Coming%20Soon-A66B00?style=flat&amp;labelColor=555" alt="Hugging Face Dataset coming soon" height="28">
+</p>
 
 </div>
 
-## Overview
+## 🔍 Overview
 
 **LookAnything** brings gaze target localization, description, and reasoning into one instruction-following vision-language model. Its learnable **gaze-prior queries** capture scene depth, source-head information, and target geometry through auxiliary supervision, removing the need for external head crops or depth maps at inference. The model supports **points, boxes, heatmaps, and natural-language answers** across diverse scenes and tasks.
 
@@ -29,13 +35,19 @@ The accompanying **HoliGaze** dataset contains **311K question-answer pairs**: a
   <sub>LookAnything unifies gaze-centric tasks with the HoliGaze data engine and benchmark. Click to view the full-size figure.</sub>
 </div>
 
-## Highlights
+## ✨ Highlights
 
 - **One model, many gaze tasks.** LookAnything handles gaze target and source understanding, spatial reasoning, social interaction, and query answerability in a unified framework.
 - **Gaze-aware representations.** Learnable queries are trained with depth, head, and target geometry supervision; auxiliary decoders can be skipped during inference.
 - **Broad evaluation.** The paper compares LookAnything with 33 vision-language models on HoliGaze-Bench, evaluates it on five conventional gaze-following benchmarks, and demonstrates real-world deployment on a Unitree G1 robot.
 
-## HoliGaze at a glance
+## 🧭 HoliGaze at a glance
+
+<div align="center">
+  <a href="assets/holigaze-figure2.webp"><img src="assets/holigaze-figure2.webp" alt="Figure 2: HoliGaze task taxonomy and question-answer examples across five capability dimensions and nine gaze-centric tasks" width="100%"></a>
+  <br>
+  <sub>Figure 2 from the paper: HoliGaze task taxonomy and Q&amp;A examples. Click to view the full-size figure.</sub>
+</div>
 
 | Capability | Tasks |
 | :-- | :-- |
@@ -57,7 +69,7 @@ We are actively preparing the public release. Resources will be added here as th
 
 We will update this README with download links and reproducibility instructions as each resource becomes available.
 
-## Citation
+## 📚 Citation
 
 If LookAnything or HoliGaze is useful for your research, please cite:
 
